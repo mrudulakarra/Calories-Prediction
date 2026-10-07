@@ -1,0 +1,30 @@
+# Environment variables & secrets
+.env
+.env.local
+*.key
+credentials/
+secrets.toml
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Data & database logs (keep sample db schema)
+*.log
+.DS_Store
+
+# Temporary uploads
+uploads/images/*
+uploads/videos/*
+!uploads/images/.gitkeep
+!uploads/videos/.gitkeep
+!uploads/profile/.gitkeep
+reports/*.pdf

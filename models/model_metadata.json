@@ -1,0 +1,29 @@
+{
+    "models": {
+        "Linear Regression": {
+            "mae": 92.5446,
+            "mse": 19063.0837,
+            "rmse": 138.0691,
+            "r2": 0.8494
+        },
+        "Random Forest": {
+            "mae": 22.9324,
+            "mse": 1630.1996,
+            "rmse": 40.3757,
+            "r2": 0.9871
+        },
+        "Gradient Boosting": {
+            "mae": 15.1645,
+            "mse": 703.4574,
+            "rmse": 26.5228,
+            "r2": 0.9944
+        },
+        "Deep Neural Network (DNN)": {
+            "mae": 10.7345,
+            "mse": 394.0816,
+            "rmse": 19.8515,
+            "r2": 0.9969
+        }
+    },
+    "best_model": "Deep Neural Network (DNN)"
+}
